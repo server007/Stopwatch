@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="sw3.css">
+    <script type="text/javascript" src="sw3.js"></script>
+</head>
+
+<body>
+    <a href="sw2.html">TIMER</a>
+    <a href="main.html" style="float:right;">HOME</a>
+    <div class="container">
+        <div id="display0"><strong>min&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp sec &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</strong>
+        </div>
+        <div id="display">
+            <strong>&nbsp00:00:<label style="font-family: Forte;">00</label></strong> <br>
+
+        </div>
+
+        <div class="buttons">
+            <br><button id="startstop" onclick="startstop()"><b>Start</b></button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <button id="reset" onclick="reset()"><b>Reset</b></button><br>
+        </div>
+    </div>
+    <div class="circle"></div>
+    <div id="record">OPERATIONS<br> &nbsp&nbsp&nbsp
+        <button id="lapbutton" onclick="lap()"><b>L a p</b></button><br>&nbsp&nbsp&nbsp
+        <button id="save" onclick><b>SAVE</b></button><br>&nbsp&nbsp&nbsp
+        <button id="result" onclick="view.php"><b>RESULT</b></button>
+    </div>
+    <div id="lap">TIME<br>
+        <form action="insert2.php" method="POST">
+            <div id="lap1"></div>
+            <div id="lap2"></div>
+            <div id="lap3"></div>
+            <div id="lap4"></div>
+            <div id="lap5"></div>
+            <div id="lap6"></div>
+            <div id="lap7"></div>
+        </form>
+    </div>
+    <label align=center><h1><b>STOPWATCH</b></h1></label>
+</body>
+
+</html>

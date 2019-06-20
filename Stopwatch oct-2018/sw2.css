@@ -1,0 +1,90 @@
+body {
+    background-color: #4A766E;
+}
+
+.container {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top: 25%;
+}
+
+#new {
+    font-size: 20px;
+    font-family: monospace;
+    position: relative;
+    top: 30%;
+    left: 40%;
+}
+
+#new2 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Forte;
+}
+
+a:hover {
+    color: red;
+}
+
+#display {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    font-family: Forte;
+}
+
+.buttons {
+    text-align: center;
+}
+
+#display0 {
+    text-align: center;
+    font-size: 27px;
+    font-family: Bradley Hand ITC;
+}
+
+#link {
+    position: absolute;
+    top: 2%;
+}
+
+#startstop,
+#reset,
+#button {
+    background-color: #4D6B50;
+    border-color: #4d6b50;
+    font-size: 28px;
+    transition-duration: 2s;
+    font-family: Colonna MT;
+}
+
+#reset:hover,
+#startstop:hover,
+#button:hover {
+    box-shadow: 0 40px 40px 0 rgba(15, 15, 15, 15.24), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.circle {
+    border-radius: 200px;
+    border: solid 2px #CC7F32;
+    background-color: #4A766E;
+    width: 310px;
+    height: 310px;
+    margin-left: 37.8%;
+    margin-top: -220px;
+    float: center;
+    box-shadow: 0 55px 55px 0 rgba(30, 30, 30, 30.24), 0px 25px 25px 0px rgba(10, 10, 10, 10.19);
+}
+
+label {
+    font-family: Bradley Hand ITC;
+    font-size: 50px;
+}

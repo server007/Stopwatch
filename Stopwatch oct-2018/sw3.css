@@ -1,0 +1,117 @@
+body {
+    background-color: #4A766E;
+}
+
+#lap {
+    height: 300px;
+    width: 100%;
+    left: 80%;
+    position: absolute;
+    top: 15%;
+    font-size: 40px;
+    font-family: Forte;
+}
+
+#record {
+    font-family: forte;
+    font-size: 40px;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+}
+
+#lap1,
+#lap2,
+#lap3,
+#lap4,
+#lap5,
+#lap6,
+#lap7 {
+    font-family: forte;
+    font-size: 35px;
+}
+
+#php {
+    background-color: #4A766E;
+    border-color: #4A766E;
+}
+
+#lapbutton,
+#save,
+#result {
+    background-color: #4D6B50;
+    border-color: #4d6b50;
+    font-size: 28px;
+    transition-duration: 2s;
+    font-family: Colonna MT;
+}
+
+.container {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top: 25%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Forte;
+}
+
+a:hover {
+    color: red;
+}
+
+#display {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    font-family: Forte;
+}
+
+.buttons {
+    text-align: center;
+}
+
+#display0 {
+    text-align: center;
+    font-size: 27px;
+    font-family: Bradley Hand ITC;
+}
+
+#startstop,
+#reset {
+    background-color: #4D6B50;
+    border-color: #4d6b50;
+    font-size: 28px;
+    transition-duration: 2s;
+    font-family: Colonna MT;
+}
+
+#reset:hover,
+#startstop:hover,
+#lapbutton:hover,
+#save:hover,
+#result:hover {
+    box-shadow: 0 40px 40px 0 rgba(15, 15, 15, 15.24), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.circle {
+    border-radius: 200px;
+    border: solid 2px #CC7F32;
+    background-color: #4A766E;
+    width: 310px;
+    height: 310px;
+    margin-left: 37.8%;
+    margin-top: -220px;
+    float: center;
+    box-shadow: 0 55px 55px 0 rgba(30, 30, 30, 30.24), 0px 25px 25px 0px rgba(10, 10, 10, 10.19);
+}
+
+label {
+    font-family: Bradley Hand ITC;
+    font-size: 50px;
+}
